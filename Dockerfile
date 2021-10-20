@@ -1,4 +1,4 @@
-FROM docker.io/golang:1.16 as builder
+FROM registry.app.corpintra.net/dockerhub/library/golang:1.16 as builder
 
 ENV GOPATH=/go/
 USER root
